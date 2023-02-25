@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: #ebf1ff;
+}
+
+
+#card-container {
+    margin-top: 12rem;
+    background-color: #ffffff;
+    width: 42rem;
+    height: 28rem;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    filter: drop-shadow(8px 10px 10px #d6cdf1); 
+}
+    
+
+
+
+
+#card {
+    width: 21rem;
+    height: 28rem;
+    background: linear-gradient(#7a7cec, #2230ce);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+
+.title {
+    padding: 2rem;
+    text-align: center;
+    color: #c8c7ff;
+    font-size: 1.4rem;
+}
+
+
+
+.result .circle {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+    width: 170px;
+    height: 170px;
+    background: linear-gradient(#393ce0, #435ce9);
+    border-radius: 50%;
+        
+}
+
+.circle h1 {
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 3.6rem;
+}
+
+.circle p {
+    color: #c8c7ff85;   
+}
+
+.result b {
+    margin-left: 7.8rem;
+    color: #ffffff; 
+    font-size: 1.8rem;    
+}
+
+.info {
+    margin-top: 1rem;
+    margin-left: 3.2rem;
+    text-align: center;
+    width: 14rem;
+    color: #c8c7ffd3;  
+}
+
+.summary {
+    margin-left: 23rem;
+    margin-top: -25rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.summary .title {
+    color: #000000;
+    margin-left: -1.8rem;
+
+}
+
+.rows b {
+    color: rgb(226, 92, 69);
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+}
+
+.row1 span {
+    font-weight: 800;
+    color: #000000;
+}
+
+.row1 p {
+    color: #a0a1a1;
+}
+
+.row1 {
+    padding: 12px;
+    width: 17rem;
+    height: 3.4rem;
+    background-color: #ffebeb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+
+.badge {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.row p b {
+    box-sizing: border-box;
+    color: #000000; 
+}
+      
+.row2 {
+    margin-top: 1rem;
+    padding: 12px;
+    width: 17rem;
+    height: 3.4rem;
+    background-color: #feffda;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.row2 b {
+    color: #e9ad3e;
+}
+
+.row2 p {
+    color: #a0a1a1;
+}
+
+.row2 span {
+    font-weight: 800;
+    color: #000000;
+}
+
+
+.row3 {
+    margin-top: 1rem;
+    padding: 12px;
+    width: 17rem;
+    height: 3.4rem;
+    background-color: #cefae2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.row3 b {
+    color: #4ec087;
+}
+
+.row3 p {
+    color: #a0a1a1;
+}
+
+.row3 span {
+    font-weight: 800;
+    color: #000000;
+}
+
+.row4 {
+    margin-top: 1rem;
+    padding: 12px;
+    width: 17rem;
+    height: 3.4rem;
+    background-color: #c5dbfd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.row4 b {
+    color: #575fd1;
+}
+
+.row4 span {
+    font-weight: 800;
+    color: #000000;
+}
+
+.row4 p {
+    color: #a0a1a1;
+}
+
+
+button {
+    font-size: 18px;
+    width: 17rem;
+    height: 3.5rem;
+    color: #ffffff;
+    background-color: #31355a;
+    border: none;
+    margin-top: 1rem;
+    margin-left: 23rem;
+    border-radius: 28px;
+}
+
+.btn:hover {
+    background: linear-gradient(#7a7ce0, #253eca);
+    cursor: pointer;
+}
+
